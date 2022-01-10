@@ -7,8 +7,7 @@ import { MonedaService } from '../moneda.service'
   styleUrls: ['./monedas.component.css']
 })
 export class MonedasComponent implements OnInit {
-    key = '1';
-    //key = 'c938d852-6940-4082-8b77-517c72f1805';
+    key = 'c938d852-6940-4082-8b77-517c72f1805c';
     monedas = [];
     valor = 1;
     monedaOrigen = 0;
